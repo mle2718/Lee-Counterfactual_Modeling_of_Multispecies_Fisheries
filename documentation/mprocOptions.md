@@ -7,6 +7,7 @@ Management procedures are specificed in a csv located in the folder "modelParame
 
 What to write in the mproc.csv file and what it means.
 
+For the short-term (EconOnly) models, the *only* the columns in the Economic Options section are used.
 
 ## ASSESSCLASS
 Refers to the class of assessment model. Options are:

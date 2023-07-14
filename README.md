@@ -18,14 +18,14 @@ and restore what is needed.
 Replicating the simulations will take a few steps.
 1. Clone this repository. Choice Model results (Table 3) and Expected Revenue model results (Table A?) are contained in ``/data/data_raw/econ``.  Note that the choice model coefficients contained in ``/data/data_raw/econ`` are the *raw* coefficients and must be exponentiated to compare them to Table 3 in the manuscript.   
 2. Obtain the simulation data. The simulation data should be placed into the ``/data/data_raw/econ`` folder.
-3. Set up the data. Run the following 3 stata do files that are in the ``/preprocessing/economic`` directory:
+3. Set up the data. Run the following 3 stata do files and 2 R scripts that are in the ``/preprocessing/economic`` directory:
    1.  ``/preprocessing/economic/wrapper_common.do``
    2.  ``/preprocessing/economic/wrapper_validation.do``
    3.  ``/preprocessing/economic/wrapper_CF.do``
-  Also run the following 2 R scripts
+   4.  ``/preprocessing/economic/pre_process_econ_AB_counterfactual.R``
+   5.  ``/preprocessing/economic/pre_process_econ_AB_validation.R``
 
-   1.  ``/preprocessing/economic/pre_process_econ_AB_counterfactual.R``
-   2.  ``/preprocessing/economic/pre_process_econ_AB_validation.R``
+
 Different types of simulations are run by passing different parameters into the model using the various  ``mprocEcon_XXX.csv`` files.
  
 # Validation (Catch Share) simulations

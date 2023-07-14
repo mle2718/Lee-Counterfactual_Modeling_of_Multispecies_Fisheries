@@ -37,7 +37,7 @@ mprocfile<-"mprocEcon_validate.csv"
 Then, run  ``/processes/runSim_Econonly_validation.R.``  Model results in the manuscript correspond to the output data where ``m==2`` (see the file ``/modelParameters/mprocEcon_validate.csv``).  These data are used for:
 1.  The 75th and 25th percentile CS Range and Predicted CS line in Figures 1-4 and Figures 8-9 
 2.  The predicted (CS) line in Figure 5
-3.  Figures 6,7,10,11 in combination with the Counterfactual (DAS) Simulations  
+3.  Figures 6,7,10,11, A1, and A2 in combination with the Counterfactual (DAS) Simulations  
 
 There are three other models that are robustness checks.  
 
@@ -49,7 +49,7 @@ mprocfile<-"mprocEcon_counterfactual_closemult.csv"
 Then, run  ``/processes/runSim_Econonly_counterfactual_closemult.R.``  Model results in the manuscript correspond to the output data where ``m==2`` (see the file ``/modelParameters/mprocEcon_validate.csv``).  These data are used for:
 1.  The 75th and 25th percentile DAS Range and Predicted DAS line in Figures 3-4 and Figures 8-9 
 2.  The predicted (DAS) line in Figure 5
-3.  Figures 6,7,10,11 in combination with the CS Simulations  
+3.  Figures 6,7,10,11, A1, and A2 in combination with the CS Simulations  
 
 # Counterfactual Simulations V2
 We also simulated the models under regulatory scenario in which reaching the catch limit for stock A *does not* result in cessation of fishing for other stocks caught along with stock A.  This is a bit unrealistic.  If you want to run this type of model, change line 18 in  ``/modelParameters/set_om_parameters_global.R`` to read:

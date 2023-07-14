@@ -1,6 +1,9 @@
 # Structural modeling of Multispecies Fisheries
 
-This is the code used to run just the economic simulations.
+This is the code used to run the economic simulations for:
+Birkenbach, Lee, and Smith "Counterfactual Modeling of Multispecies Fisheries Outcomes Under Market-Based Regulation."  Journal of the Association of Environmental and Resource Economists. 
+
+
 
 This economic simulation are intended to be integrated into [a bioeconomic model of groundfish](https://github.com/lkerr/groundfish-MSE).  However, to focus on the counterfactual vs status-quota simulations, we have removed most of the biological and ecosystem machinery.
 

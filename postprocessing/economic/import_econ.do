@@ -1,10 +1,12 @@
-/* Order of doing stuff. */
+
 /* Run this file to load/prep the economic results 
 
 The simulation code stores the economic results as CSV files inside folders with the naming pattern
 results_YYYY_MM_DD_HH_MM_SS
 
 There should be more than 1 CSV in each folder.  Each has the prefix econ_
+This was used in some preliminary explorations, but I don't think it was used in the final analysis.
+
 */
 version 15.1
 

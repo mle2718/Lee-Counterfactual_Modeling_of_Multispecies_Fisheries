@@ -12,7 +12,11 @@ remote_location <- "/net/ftp/pub/dropoff/mlee/anna/summary"
 # Uncomment one of these stub names, depending on which type of simulation was run.
 # When we first ran the simulations, we sometimes had to re-run parts of certain scenarios. This mostly happened if the NEFSC server went offline or if I ran out of storage space. 
 # Rather than spend a week running the simulation from scratch, we just restarted it. 
-# That meant we had two parts for the validation, closeown, and closemult scenarios.  
+#  That meant we had two parts for the validation, closeown, and closemult scenarios. 
+#  mprocEcon_counterfactual_closemult.csv implies  stub<-"counterfactual_closemult"
+#  mprocEcon_validate.csv implies stub<- "validation"
+#  mprocEcon_counterfactual_single.csv implies stub<- "counterfactual_closeown"
+
 #stub<-"counterfactual_closeownA"
 #stub<-"validationA"
 #stub<-"validation1"

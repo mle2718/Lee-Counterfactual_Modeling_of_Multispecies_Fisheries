@@ -29,7 +29,7 @@ pr_hat_out_csv<-paste0("pr_hat_",stub,".csv")
 file_path="./results_2021-04-21-14-40-06"
 
 #selects csvs that start with a particular pattern 
-select_pat<- "econ_2020"
+select_pat<- "econ_202"
 file_names = list.files(path=file.path(file_path, "econ","raw"), pattern =select_pat, full.names = TRUE)
 
 # Cut out or stop options. some of the Simulations ran partially and therefore only have partial data.  
@@ -102,8 +102,6 @@ file_names = list.files(path=file.path(file_path, "econ","raw"), pattern = "econ
 #binding into a data.table
 stock_status<-list()
 
-
-#don't read the last file name
 file_nums<-length(file_names)
 
 for(file in 1:file_nums){

@@ -19,7 +19,7 @@ and restore what is needed.
 
 # Replication Overview and Setup
 Replicating the simulations will take a few steps.
-1. Clone this repository. Choice Model results (Table 3) and Expected Revenue model results (Table A?) are contained in ``/data/data_raw/econ``.  Note that the choice model coefficients contained in ``/data/data_raw/econ`` are the *raw* coefficients and must be exponentiated to compare them to Table 3 in the manuscript.   
+1. Clone this repository. Choice Model results (Tables 3 and A6) and Harvest Regression model results (Tables A4 and A5) are contained in ``/data/data_raw/econ``.  Note that the choice model coefficients contained in ``/data/data_raw/econ`` are the *raw* coefficients and must be exponentiated to compare them to Tables 3 and A6 in the manuscript.   
 2. Obtain the simulation data. The simulation data should be placed into the ``/data/data_raw/econ`` folder.
 3. Set up the data. Run the following 3 stata do files and 2 R scripts that are in the ``/preprocessing/economic`` directory:
    1.  ``/preprocessing/economic/wrapper_common.do``

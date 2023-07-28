@@ -12,7 +12,7 @@ This was:
 2.  Only the Econ_Only2 branch was retained. It was renamed to main. 
 3.  All of the superfluous non-economic bits were removed from this branch. If I have deleted too many, I should go here:
 
-https://github.com/mle2718/BLS-Structural_Modeling_of_Multispecies_Fisheries/commit/6af544af12d541102bdd2253931f054dd06709c8
+https://github.com/mle2718/READ-SSB-Lee-Countefactual_Modeling_of_Multispecies_Fisheries/commit/6af544af12d541102bdd2253931f054dd06709c8
 
 and restore what is needed.
 

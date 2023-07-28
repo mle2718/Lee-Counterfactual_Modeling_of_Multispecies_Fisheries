@@ -13,7 +13,6 @@ This was:
 3.  All of the superfluous non-economic bits were removed from this branch. If I have deleted too many, I should go here:
 
 [https://github.com/mle2718/READ-SSB-Lee-Countefactual_Modeling_of_Multispecies_Fisheries/commit/6af544af12d541102bdd2253931f054dd06709c8](https://github.com/mle2718/READ-SSB-Lee-Counterfactual_Modeling_of_Multispecies_Fisheries/tree/6af544af12d541102bdd2253931f054dd06709c8)
-
 and restore what is needed.
 
 

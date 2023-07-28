@@ -2,6 +2,8 @@
 
 This is the code used to run the economic simulations for:
 Birkenbach, Lee, and Smith "Counterfactual Modeling of Multispecies Fisheries Outcomes Under Market-Based Regulation."  Journal of the Association of Environmental and Resource Economists. 
+[![DOI](https://zenodo.org/badge/479089401.svg)](https://zenodo.org/badge/latestdoi/479089401)
+
 
 
 

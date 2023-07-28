@@ -71,9 +71,15 @@ Then, run  ``/processes/runSim_Econonly_counterfactual_closesingle.R.``
 
 
 Who worked on this project - Lee, Birkenbach, Smith
+
 When this project was created - Started in 2015. Live in July 2023
+
 What the project does - This is code to replicate the simulations in Birkenbach, Lee, and Smith "Counterfactual Modeling of Multispecies Fisheries Outcomes Under Market-Based Regulation."  Journal of the Association of Environmental and Resource Economists. 
+
 Why the project is useful - See previous.
-How users can get started with the project - Clone, get data.
+
+How users can get started with the project - Clone, obtain data from authors.
+
 Where users can get help with your project - Open an issue.
+
 maintains and contributes to the project - Lee

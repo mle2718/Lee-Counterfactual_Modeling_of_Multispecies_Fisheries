@@ -63,3 +63,17 @@ mprocfile<-"mprocEcon_counterfactual_single.csv"
 ```
 
 Then, run  ``/processes/runSim_Econonly_counterfactual_closesingle.R.`` 
+
+
+# Disclaimer
+“This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”
+
+
+
+Who worked on this project - Lee, Birkenbach, Smith
+When this project was created - Started in 2015. Live in July 2023
+What the project does - This is code to replicate the simulations in Birkenbach, Lee, and Smith "Counterfactual Modeling of Multispecies Fisheries Outcomes Under Market-Based Regulation."  Journal of the Association of Environmental and Resource Economists. 
+Why the project is useful - See previous.
+How users can get started with the project - Clone, get data.
+Where users can get help with your project - Open an issue.
+maintains and contributes to the project - Lee
